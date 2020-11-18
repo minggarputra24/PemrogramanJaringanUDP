@@ -19,7 +19,7 @@ public class PenerimaUPD {
         try {
             byte[] buffer = new byte[65];
             DatagramPacket dp = new DatagramPacket(buffer, buffer.length);
-            DatagramSocket ds = new DatagramSocket(1111);
+            DatagramSocket ds = new DatagramSocket(1987);
             ds.receive(dp);
             byte[] data = dp.getData();
             String pesan = new String(data,0,data.length);

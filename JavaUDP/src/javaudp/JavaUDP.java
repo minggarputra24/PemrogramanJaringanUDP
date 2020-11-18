@@ -26,8 +26,8 @@ public class JavaUDP {
     public static void main(String[] args) throws UnknownHostException {
         // TODO code application logic here
         try {
-            InetAddress ia = InetAddress.getByName("10.10.10.21");
-            int port = 1111;
+            InetAddress ia = InetAddress.getByName("10.10.10.2");
+            int port = 1987;
             Scanner s = new Scanner(System.in);
             System.out.println("Masukkan Pesan = ");
             String pesan = s.nextLine();

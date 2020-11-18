@@ -20,7 +20,7 @@ public class PengirimUDP {
     public static void main(String[] args) {
         try {
             InetAddress ia = InetAddress.getByName("10.10.10.2");
-            int port = 2022;
+            int port = 1987;
 //          posisi kursor
             PointerInfo a;
             Point b;
